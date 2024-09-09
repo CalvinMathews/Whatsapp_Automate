@@ -29,18 +29,12 @@ for index, row in df.iterrows():
     image_path = os.path.abspath(os.path.join('images', image_filename))
     
     if os.path.exists(image_path):
-        message = f"Thank you {name}, for confirming your presence at Converge 2024! 🎉"
+        message = f"Thank you {name},"
         
         try:
             chat_url = f"https://web.whatsapp.com/send?phone={number}&text={urllib.parse.quote(message)}"
             driver.get(chat_url)
             time.sleep(5)
-            
-            # send_button = WebDriverWait(driver, 30).until(
-            #     EC.element_to_be_clickable((By.XPATH, '//span[@data-icon="send"]'))
-            # )
-            # send_button.click()
-            # time.sleep(2)
             
             attachment_box = WebDriverWait(driver, 30).until(
                 EC.element_to_be_clickable((By.XPATH, '//div[@title="Attach"]'))
