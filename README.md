@@ -29,6 +29,46 @@ Welcome to the **WhatsApp Automation Project**! This repository helps you automa
 | +441234567890  | Your event details enclosed.  | images/ticket2.jpg |
 
 ---
+## 🚀 Getting Started
+
+### Prerequisites
+Ensure you have the following installed:
+
+- **Python** (version 3.x). You can download it from [here](https://www.python.org/downloads/).
+
+### Installation
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/CalvinMathews/Whatsapp_Automate.git 
+```
+
+#### Navigate into the Project Directory
+
+```bash
+cd Whatsapp_Automate
+```
+
+#### Install Dependencies
+Install the required Python libraries by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+
+
+
+
+
+
+
+
+---
+
 
 ## 🤝 Contributing
 
